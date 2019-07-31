@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Platformer</string>
+    <string name="player_health">Lives: %1$d</string>
+    <string name="remaining_coin">Remaining: %1$d</string>
+    <string name="collected_coin">Collected: %1$d</string>
+    <string name="level">Level: %1$d</string>
+    <string name="comma">,</string>
+    <string name="start_the_game">Start Game</string>
+    <string name="touch_controller">Touch Controller</string>
+    <string name="virtual_joystick">Virtual Joystick</string>
+    <string name="accelerometer">Accelerometer</string>
+    <string name="super_fluffy">Super Fluffy</string>
+    <string name="choose_your_controller">Choose your controller:</string>
+    <string name="instructions2">For the next level\nCollect all Coins and\nReach the Door</string>
+    <string name="instruction">Instructions:</string>
+</resources>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_your_controller"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size"
+        android:layout_above="@id/radio_group"
+        android:layout_marginStart="@dimen/margin_right"
+        android:layout_marginBottom="@dimen/margin_bottom"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_right"
+        android:layout_centerVertical="true"
+        android:id="@+id/radio_group"
+        android:checkedButton="@id/joystick">
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/touch_controller"
+        android:id="@+id/touch_controller"/>
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/virtual_joystick"
+        android:id="@+id/joystick"/>
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/accelerometer"
+        android:id="@+id/accelerometer"/>
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/start_button"
+        style="@style/Base.TextAppearance.AppCompat.Headline"
+        android:fontFamily="cursive"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:textSize="@dimen/title_text_size"
+        android:text="@string/super_fluffy"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/margin_right"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start_the_game"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/margin"
+        android:id="@+id/start_button"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/instructions"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="@dimen/text_size"
+        android:textColor="@color/black"
+        android:layout_marginEnd="@dimen/margin_text"
+        android:text="@string/instruction"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/instructions"
+        android:textColor="@color/black"
+        android:layout_marginEnd="@dimen/margin_right"
+        android:text="@string/instructions2"/>
+
+</RelativeLayout>

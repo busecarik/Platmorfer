@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/musicEnable"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_volume_off_black_24dp"
+        android:layout_marginTop="@dimen/button_margin"
+        android:layout_marginEnd="@dimen/button_margin"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/soundEnable"
+        android:layout_below="@id/musicEnable"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_notifications_off_black_24dp"
+        android:layout_marginBottom="@dimen/button_margin"
+        android:layout_marginEnd="@dimen/button_margin"/>
+
+</RelativeLayout>

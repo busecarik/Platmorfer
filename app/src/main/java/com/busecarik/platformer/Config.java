@@ -1,0 +1,41 @@
+package com.busecarik.platformer;
+
+public class Config {
+    public static final int STAGE_WIDTH = 1280;
+    public static final int STAGE_HEIGHT = 720;
+    public static final int ALPHA_VALUE = 255;
+    public static final int TRANSPARENT_VALUE = 85;
+    public final static float TEXT_SIZE_HUD = 48f;
+    public final static int PLAYER_HEALTH = 3;
+    public static final int MAX_STREAMS = 5;
+    public static final float DEFAULT_VOLUME = 1.0f;
+    public static final String SOUNDS_PREF_KEY = "sounds_pref_key";
+    public static final String MUSIC_PREF_KEY = "music_pref_key";
+    public static final float DEFAULT_MUSIC_VOLUME = 0.6f;
+    public static final float CENTER_Y = STAGE_HEIGHT/2;
+    public static final float CENTER_X = STAGE_WIDTH/2 - 250;
+    public static final float MAX_DELTA = 0.48f;
+    public static final int MAP_HEIGHT = 11;
+    public static final int MAP_WIDTH = 37;
+    public static final String LEVEL_MAP1 = "level1.txt";
+    public static final String LEVEL_MAP2 = "level2.txt";
+    public static final String LEVEL_MAP3 = "level3.txt";
+    final static String JUMP = "sfx/jump.wav";
+    final static String COIN_PICKUP = "sfx/pickup_coin.wav";
+    final static String GAME_OVER = "sfx/gameover.wav";
+    final static String START_LEVEL = "sfx/level_up.wav";
+    final static String BUMP = "sfx/hit.wav";
+    final static String POER_UP = "sfx/power_up.wav";
+    final static String LEVEL_GOAL = "sfx/level_goal.wav";
+    final static String BACKGROUND_MUSIC1 = "sfx/background1.mp3";
+    final static String BACKGROUND_MUSIC2 = "sfx/background2.mp3";
+    final static String BACKGROUND_MUSIC3 = "sfx/background3.mp3";
+    final static String FONT = "fonts/theme.ttf";
+    public final static long RECOVERY_TIME = 2000;
+    public final static int COOL_DOWN = 250;
+    final static int LEVEL_NUMBER = 3;
+    final static String TOUCH_CONTROLLER = "Touch Controller";
+    final static String JOYSTICK = "joystick";
+    final static String ACCELEROMETER = "accelerometer";
+    final static String CONTROLLER = "controller";
+}

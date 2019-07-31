@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="keypad_size">48dp</dimen>
+    <dimen name="button_margin">4dp</dimen>
+    <dimen name="title_text_size">32sp</dimen>
+    <dimen name="text_size">18sp</dimen>
+    <dimen name="margin">100dp</dimen>
+    <dimen name="margin_right">32dp</dimen>
+    <dimen name="margin_bottom">12dp</dimen>
+    <dimen name="margin_text">64dp</dimen>
+</resources>
